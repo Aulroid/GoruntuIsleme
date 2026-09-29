@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 1. Resmi doğrudan TEK KANAL GRİ (IMREAD_GRAYSCALE) olarak okutuyoruz
-dosya_adi = "Hafta2_Gorev1/pexels-m-e-r-v-e-42708268-32370611.jpg"
+dosya_adi = "Hafta2_Gorev2/pexels-m-e-r-v-e-42708268-32370611.jpg"
 img = cv2.imread(dosya_adi, cv2.IMREAD_GRAYSCALE)
 
 if img is None:
