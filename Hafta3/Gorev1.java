@@ -12,8 +12,8 @@ public class Gorev1 {
         System.load(new File("lib/opencv_java500.dll").getAbsolutePath());
 
         // 2. Giriş ve çıkış dosya yolları
-        String inputPath = "a-low-contrast-image-b-after-enhancement.jpeg";
-        String outputPath = "dogrusal_kontrast_sonuc.jpeg";
+        String inputPath = "ulas_hocaWp2.jpeg";
+        String outputPath = "ulas_hocaWp2_sonuc.jpeg";
 
         // Görüntüyü tek kanallı (grayscale) olarak okuyoruz
         Mat src = Imgcodecs.imread(inputPath, Imgcodecs.IMREAD_GRAYSCALE);
